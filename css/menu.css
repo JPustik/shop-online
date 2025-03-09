@@ -1,0 +1,61 @@
+:root {
+    --black: #222222;
+    --pink-bkg: #F1E4E6;
+    --pink-text: #F1808F;
+}
+
+.header__menu {
+    position: absolute;
+    z-index: 9999;
+    right: 0px;
+    background-color: white;
+    display: none;
+    width: 232px;
+    height: 764px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.header__menu-close {
+    padding-left: 210px;
+    padding-top: 10px;
+}
+
+.header__menu-title {
+    padding-left: 34px;
+}
+
+.header__menu-list{
+    list-style-type: none;
+}
+
+.menu-sub-item__man-list {
+    list-style-type: none;
+}
+
+.menu-sub-item__woman-list {
+    list-style-type: none;
+}
+
+.menu-sub-item__kids-list {
+    list-style-type: none;
+}
+
+.menu-sub-item__man {
+    font-weight: 400;
+    color: var(--pink-text);
+}
+
+.menu-sub-item__woman {
+    font-weight: 400;
+    color: var(--pink-text);
+}
+
+.menu-sub-item__kids {
+    font-weight: 400;
+    color: var(--pink-text);
+}
+
+.menu-sub-item__item-link {
+    font-weight: 400;
+    color: var(--black);
+}

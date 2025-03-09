@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="alert.js"></script>
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrp">
+                <div class="">
+                    <a href="index.html"><img class="header__logo" src="./img/logo.svg" alt="logo"></a>
+                    <a href="" onclick="myFunction()"><img class="header__search" src="./img/loupe.svg" alt="loupe"></a> 
+                </div>
+                <div class="header__nav-group">
+                    <button class="header__button" type="button">
+                        <img src="./img/burger.svg" alt="person" onclick="menuVisibility()">
+                    </button>
+
+                    <a class="header__link" href="registration.html"><img src="./img/profile.svg" alt="profile"></a>
+                    <a class="header__link" href="cart.html"><img src="./img/basket.svg" alt="basket"></a>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <h2 class="header__menu-title">menu</h2>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">man</h3>
+                        <ul class="menu-sub-item__list">
+                            <li><a class="menu-sub-item__item-link" href="#">Accessories</a></li>
+                            <li><a class="menu-sub-item__item-link" href="#">Bags</a></li>
+                            <li><a class="menu-sub-item__item-link" href="#">Denim</a></li>
+                            <li><a class="menu-sub-item__item-link" href="#">T-Shirts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>woman</h3>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>kids</h3>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Jackets & Coats</a></li>
+                            <li><a href="#">Polos</a></li>
+                            <li><a href="#">T-Shirts</a></li>
+                            <li><a href="#">Shirts</a></li>
+                            <li><a href="#" Bags></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="arrivals">
+            <div class="header__arrivals">
+                <a href="" class="arrivals__title-a"><h1 class="arrivals__title">NEW ARRIVALS</h1></a>
+                <div class="road">
+                    <a href="index.html" class="road__back">HOME</a>
+                    <span>/</span>
+                    <a href="catalog.html" class="road__back">NEW ARRIVALS</a>
+                    <span>/</span>
+                    <a href="#" class="road__now">PRODUCT</a>
+                </div>
+            </div>
+            <nav class="header__menu" id="headerMenu">
+                <img class="header__menu-close" id="closeMenu" src="./img/close.png" alt="close">
+                <h2 class="header__menu-title">MENU</h2><br>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__man">MAN</h3>
+                        <ul class="menu-sub-item__man-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Bags</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Denim</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__woman">WOMAN</h3>
+                        <ul class="menu-sub-item__woman-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Jackets & Coats</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Polos</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Shirts</a></li><br>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__kids">KIDS</h3>
+                        <ul class="menu-sub-item__kids-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Jackets & Coats</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Polos</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Bags</a></li><br>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="products">
+            <div class="product__arrivals">
+                <img src="./img/Vector-left.png" alt="" class="product__arrivals-left">
+                <img src="./img/Vector-right.png" alt="" class="product__arrivals-right">
+            </div>
+            <div class="product__description">
+                <h3 class="product__description-title">WOMEN COLLECTION</h3>
+                <img src="./img/Devider.png" alt="">
+                <h1 class="product-title">MOSCHINO CHEAP AND CHIC</h1>
+                <p>Compellingly actualize fully researched processes before proactive outsourcing. 
+                    Progressively syndicate collaborative architectures before cutting-edge services. 
+                    Completely visualize parallel core competencies rather than exceptional portals.
+                </p>
+                <h1 class="product__description-price">$561</h1>
+                <img src="./img/Line.png" alt="">
+                <div class="product__description-choose">
+                    <button class="header__size" onclick="openColor()">
+                        <h4>CHOOSE COLOR <img src="./img/Vector-botton.png" alt=""></h4>
+                    </button>
+                    <div class="choose-color" id="color">
+                        <label for="favcolor">Выберите цвет</label>
+                        <input type="color" list="colors" id="favcolor" name="favcolor" />
+                        <datalist id="colors">
+                            <option value="#FFFFFF" label="blue">
+                            <option value="#000000" label="green">
+                            <option value="#FF0000" label="red">
+                            <option value="#191970" label="MidnightBlue">
+                        </datalist>
+                    </div>
+                    <button class="header__size" onclick="openSize()">
+                        <h4>CHOOSE SIZE <img src="./img/Vector-botton.png" alt=""></h4>
+                    </button>
+                    <div class="choose-size" id="size">
+                        <input type="radio" name="size" id="xs" value="xs">
+                        <label for="xs">XS</label><br><br>
+                        <input type="radio" name="size" id="s" value="s">
+                        <label for="s">S</label><br><br>
+                        <input type="radio" name="size" id="m" value="m">
+                        <label for="m">M</label><br><br>
+                        <input type="radio" name="size" id="l" value="l">
+                        <label for="l">L</label><br><br>
+                    </div>
+                    <button class="header__size">
+                        <h4>QUANTITY <img src="./img/Vector-botton.png" alt=""></h4>
+                    </button>
+                </div>
+                <div class="product__button">
+                    <button class="products__button-text" onmouseover="onMouseHover(this)" onmouseleave = "onMouseLeave(this)">
+                        <img class="product__button-img-white" src="./img/basket.svg" alt="" id="basketWhite">
+                        <img src="./img/Forma 1 copy.png" alt="" class="product__button-img" id="basketPink">
+                        <h4>Add to Cart</h4>
+                    </button>
+                </div>
+            </div>
+            <div class="products__list list-product">
+                <div class="products__item">
+                    <a href="#" class="sales__animat"><img class="products__item-img" src="./img/liudi.png" alt="person-1"></a>
+                    <h3 class="products__item-title">ellery x m'o capsule</h3>
+                    <p class="products__item-desc">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="products__item-link">$52.00</p>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="sales__animat"><img class="products__item-img" src="./img/eto-chorosho.png" alt="person-1"></a>
+                    <h3 class="products__item-title">ellery x m'o capsule</h3>
+                    <p class="products__item-desc">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="products__item-link">$52.00</p>
+                </div>
+                <div class="products__item">
+                    <a href="#" class="sales__animat"><img class="products__item-img" src="./img/featured-5.png" alt="person-5"></a>
+                    <h3 class="products__item-title">ellery x m'o capsule</h3>
+                    <p class="products__item-desc">Known for her sculptural takes on traditional tailoring, Australian
+                        arbiter of cool Kym Ellery
+                        teams up with Moda Operandi.</p>
+                    <p class="products__item-link">$52.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div>
+        <div class="footer__list">
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/delivery.svg" alt="delivery">
+                <h3 class="footer__item-title">Free Delivery</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/sales.svg" alt="sales">
+                <h3 class="footer__item-title">Sales & discounts</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/crown.svg" alt="quality">
+                <h3 class="footer__item-title">Quality assurance</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+        </div>
+        <div class="footer__menu">
+            <div class="footer__menu-text">
+                <img class="footer__menu-img" src="./img/avatar.png" alt="avatar">
+                <h4 class="footer__menu-desc">“vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus
+                    condimentum“</span></h4>
+            </div>
+            <div class="footer__menu-item">
+                <h2 class="footer__menu-title">SUBSCRIBE</h2>
+                <h3 class="footer__menu-desc">FOR OUR NEWLETTER AND PROMOTION</h3>
+                <form id="email-form" method="post" class="footer__menu-form">
+                    <input class="footer__menu-item-input" type="email" name="email" id="email-send" placeholder="Enter Your Email"><input type="submit" name="submit" value="Subscribe" class="footer__menu-item-subscribe">
+                    <div id="answer"></div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__text">© 2021 Brand All Rights Reserved.</h3>
+            <div class="footer__social-icon">
+                <img src="./img/facebook.png" alt="facebook">
+                <img src="./img/instagram.png" alt="instagram">
+                <img src="./img/pinterest.png" alt="pinterest">
+                <img src="./img/twiter.png" alt="twiter">
+            </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

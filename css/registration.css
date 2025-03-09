@@ -1,0 +1,21 @@
+.registration-main {
+    display: inline-block;
+    height: 710px;
+}
+
+.registration {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+
+.main__item {
+    position: absolute;
+    left: 650px;
+    top: 250px;
+}
+
+.main__text {
+    font-weight: 400;
+}

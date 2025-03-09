@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrp">
+                <div class="">
+                    <a href="index.html"><img class="header__logo" src="./img/logo.svg" alt="logo"></a>
+                    <img class="header__search" src="./img/loupe.svg" alt="loupe">
+                </div>
+                <div class="header__nav-group">
+                    <div class="header__nav-group">
+                        <button class="header__button" type="button" id="openMenu">
+                            <img src="./img/burger.svg" alt="person" onclick="menuVisibility()">
+                        </button>
+                    <a class="header__link" href="registration.html"><img src="./img/profile.svg" alt="profile"></a>
+                    <a class="header__link" href="cart.html"><img src="./img/basket.svg" alt="basket"></a>
+                </div>
+            </div>
+    </header>
+    <main class="cart-main">
+        <section class="shopping__cart">
+            <a href="" class="arrivals__title-a"><h1 class="main__title">SHOPPING CART</h1></a>
+            <nav class="header__menu" id="headerMenu">
+                <img class="header__menu-close" id="closeMenu" src="./img/close.png" alt="close">
+                <h2 class="header__menu-title">MENU</h2><br>
+                <ul class="header__menu-list">
+                    <li class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__man">MAN</h3>
+                        <ul class="menu-sub-item__man-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Bags</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Denim</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__woman">WOMAN</h3>
+                        <ul class="menu-sub-item__woman-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Jackets & Coats</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Polos</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Shirts</a></li><br>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="menu-sub-item__kids">KIDS</h3>
+                        <ul class="menu-sub-item__kids-list">
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Accessories</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Jackets & Coats</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Polos</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">T-Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Shirts</a></li><br>
+                            <li><a class="menu-sub-item__item-link" href="#" style="text-decoration: none;">Bags</a></li><br>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="cart-main-product">
+            <div>
+                <ul class="cart__main-list">
+                    <li class="cart__main-item">
+                        <img src="./img/cart-man.png" alt="man" class="cart__main-img">
+                        <div class="cart__main-text">
+                            <h1>mango people <br><br> t-shirt</h1><br>
+                            <h2>Price:<span class="cart__msin-text-price">$300</span></h2>
+                            <h2>Color: Red</h2>
+                            <h2>Size: Xl</h2>
+                            <h2>Quantity: 2</h2>
+                        </div>
+                    </li><br><br>
+                    <li class="cart__main-item">
+                        <img src="./img/Rectangle 15 copy.png" alt="man" class="cart__main-img">
+                        <div class="cart__main-text">
+                            <h1>mango people <br><br> t-shirt</h1><br>
+                            <h2>Price:<span class="cart__msin-text-price">$300</span></h2>
+                            <h2>Color: Red</h2>
+                            <h2>Size: Xl</h2>
+                            <h2>Quantity: 2</h2>
+                        </div>
+                    </li>
+                </ul>
+                <div class="main__button-product">
+                    <div class="main__button-clear">
+                        <button class="main__product-button">CLEAR SHOPPING CART</button>
+                    </div>
+                    <div class="main__button-continue">
+                        <a href="catalog.html"><button class="main__product-button">CONTINUE SHOPPING</button></a>
+                    </div>
+                </div>
+            </div>
+        
+            <form id="adress-form" class="main-adress" method="post">
+                <label for="">SHOPPING ADRESS</label><br><br>
+                <input type="adress" name="country" id="adress-send" class="main__adress-block" placeholder="Country"><br><br>
+                <input type="adress" name="adress" id="adress-send" class="main__adress-block" placeholder="Adress"><br><br>
+                <input type="adress" name="postcode" id="adress-send" class="main__adress-block" placeholder="Postcode / Zip"><br><br>
+                <div class="total">
+                    <h4 class="sub-total">SUB TOTAL 900$</h4>
+                    <h2 class="grand-total">GRAND TOTAL <span class="grand-total-price">900$</span></h2>
+                    <img src="./img/Shape 8.png" alt="line" class="total-img">
+                    <input class="total-button" type="submit" name="submit" value="PROCEED TO CHECKOUT">
+                    <div id="answer3"></div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+        <div class="footer__list">
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/delivery.svg" alt="delivery">
+                <h3 class="footer__item-title">Free Delivery</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/sales.svg" alt="sales">
+                <h3 class="footer__item-title">Sales & discounts</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+            <div class="footer__list-item">
+                <img class="footer__item-img" src="./img/crown.svg" alt="quality">
+                <h3 class="footer__item-title">Quality assurance</h3>
+                <p class="footer__item-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with extensive models.
+                </p>
+            </div>
+        </div>
+        <div class="footer__menu">
+            <div class="footer__menu-text">
+                <img class="footer__menu-img" src="./img/avatar.png" alt="avatar">
+                <h4 class="footer__menu-desc">“vestibulum quis porttitor dui! Quisque viverra nunc mi, <span>a pulvinar purus
+                    condimentum“</span></h4>
+            </div>
+            <div class="footer__menu-item">
+                <h2 class="footer__menu-title">SUBSCRIBE</h2>
+                <h3 class="footer__menu-desc">FOR OUR NEWLETTER AND PROMOTION</h3>
+                <form id="email-form" method="post" class="footer__menu-form">
+                    <input class="footer__menu-item-input" type="email" name="email" id="email-send" placeholder="Enter Your Email"><input type="submit" name="submit" value="Subscribe" class="footer__menu-item-subscribe">
+                    <div id="answer"></div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__text">© 2021 Brand All Rights Reserved.</h3>
+            <div class="footer__social-icon">
+                <img src="./img/facebook.png" alt="facebook">
+                <img src="./img/instagram.png" alt="instagram">
+                <img src="./img/pinterest.png" alt="pinterest">
+                <img src="./img/twiter.png" alt="twiter">
+            </div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/footer.js"></script>
+</body>
+</html>

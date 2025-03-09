@@ -1,0 +1,37 @@
+.sales__animat {
+    display: block;
+    position: relative;
+    right: 6px;
+    /* top: 15px; */
+}
+
+.sales__animat:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../img/Addtocart.png') no-repeat center center;
+    opacity: 0;
+    z-index: 1;
+    transition: opacity 0.4s ease;
+}
+
+.sales__animat:after {
+    width: 360px;
+    height: 422px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 6px;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity 0.4s linear;
+}
+.sales__animat:hover:before,
+.sales__animat:hover:after {
+    opacity: 1;
+}
